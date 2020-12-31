@@ -9,5 +9,9 @@
 <body>
 	<h3>Spring Rest Demo</h3>
 	<a href="${pageContext.request.contextPath}/test/hello">Hello</a>
+	<br>
+	<br>
+	<a href="${pageContext.request.contextPath}/api/students">Students
+		List</a>
 </body>
 </html>
